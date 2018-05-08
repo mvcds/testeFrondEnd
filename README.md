@@ -10,7 +10,7 @@ As informações podem ser aleatórias
 
 ## Checklist
 
-- [ ] Layout do zeplin
 - [ ] Versão mobile
 - [ ] Versao tablet
+- [ ] Versão do zeplin
 - [ ] Informações carregadas através de um JSON
