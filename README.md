@@ -22,6 +22,8 @@ As informações podem ser aleatórias
 
 Usei o chrome pra desenvolver, só espero que funcione nele, pois considerei o tempo curto (devido à ser no meio da semana)
 
+Para testes manuais no mobile, usei meu S8 para acessar https://mvcds.github.io/testeFrondEnd
+
 ### Estilo
 
 0. Comecei com CSS puro, pois não sabia se eu pudia usar um preprocessador, mas depois pensei que fica um teste mais bonitinho usando algo do genero
