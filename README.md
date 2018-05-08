@@ -11,12 +11,15 @@ As informações podem ser aleatórias
 ## Checklist
 
 - [ ] Versão mobile
+- [ ] Arrumar tamanho de imagens no mobile
 - [ ] Versao tablet
 - [ ] Versão do zeplin
-- [ ] Fix media queries
+- [ ] Arrumar media queries
 - [ ] Informações carregadas através de um JSON
 
 ## O que eu fiz
+
+Usei o chrome pra desenvolver, só espero que funcione nele, pois considerei o tempo curto (devido à ser no meio da semana)
 
 ### Estilo
 
