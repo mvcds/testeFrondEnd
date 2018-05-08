@@ -24,3 +24,4 @@ As informações podem ser aleatórias
 1. Instalei o stylus :heart: via `npm install stylus -g`
 2. Durante o ciclo de desenvolvimento estou rodando `stylus -w src/style/style.styl -o ./style.css`
 3. Como a minha folha de estilo é gerada automaticamente, trato ela como um arquivo binário via *.gitattributes*
+4. Para me auxiliar a estruturar o stylus, gosto de usar um mixto de ITCSS, BEM e atomic design, junto com estilização de componentes (quando usando um framework como o React)
