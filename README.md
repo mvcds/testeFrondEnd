@@ -11,6 +11,7 @@ As informações podem ser aleatórias
 ## Checklist
 
 - [ ] Versão mobile
+- [ ] No mobile (e tablet) o background de beneficios pode ser usado?
 - [ ] Arrumar tamanho de imagens no mobile
 - [ ] Versao tablet
 - [ ] Versão do zeplin

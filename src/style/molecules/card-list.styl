@@ -1,29 +1,9 @@
-.card-list
-  &__item
-    border-radius 10px
-    box-shadow 2.6px 3.1px 8px 0 #00000019
-
-    & + &
-      margin-top --base-size * 2
-
-  &__image
-    img
-      width 100%
-
+card-list()
   &__content
     reset(--base-size (--base-size * 3))
 
   &__title
     margin 0 0 (--base-size) 0
-    font-size 18px
-    font-weight bold
-    line-height 1.44
-    text-align left
-    color --secondary-text-color
-
-  &__separator
-    height 1px
-    background-color #D0D0D0
 
   &__text
     font-size 15px
@@ -31,3 +11,7 @@
     text-align justify
     color --text-color
     margin (--base-size) 0
+
+.card-item
+  & + &
+    margin-top --base-size * 2

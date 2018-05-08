@@ -8,12 +8,26 @@ body {
   letter-spacing: normal;
   color: #333;
   margin-bottom: 16px;
+  background-color: #222;
 }
 p {
   padding: 16px;
   margin: 0;
 }
 a {
+  color: #3d383b;
+}
+a.button {
+  border-radius: 4px;
+  background-color: #ac5908;
+  color: #fff;
+  font-family: PetalaPro;
+  line-height: 2;
+  font-size: 16.3px;
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
   text-decoration: none;
 }
 h1 {
@@ -21,45 +35,22 @@ h1 {
   font-family: MedulaOne;
   font-size: 52px;
   text-align: center;
-  color: #bf7111;
 }
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-.card-list__item {
-  border-radius: 10px;
-  box-shadow: 2.6px 3.1px 8px 0 rgba(0,0,0,0.098);
-}
-.card-list__item + .card-list__item {
-  margin-top: 16px;
-}
-.card-list__image img {
+.small-text {
+  font-family: PetalaPro;
+  font-size: 12px;
+  text-align: right;
+  color: #3d383b;
   width: 100%;
+  margin-top: 32px;
 }
-.card-list__content {
-  padding: 8px 24px;
-  margin: 0;
-}
-.card-list__title {
-  margin: 0 0 8px 0;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-  text-align: left;
-  color: #f7aa0f;
-}
-.card-list__separator {
-  height: 1px;
-  background-color: #d0d0d0;
-}
-.card-list__text {
-  font-size: 15px;
-  line-height: 1.8;
-  text-align: justify;
-  color: #333;
-  margin: 8px 0;
+.card-item + .card-item {
+  margin-top: 16px;
 }
 #home--banner {
   padding: 16px;
@@ -85,29 +76,101 @@ ul {
 #home--banner picture img {
   width: 50%;
 }
-#home--banner a {
-  border-radius: 4px;
-  background-color: #ac5908;
-  color: #fff;
-  font-family: PetalaPro;
-  line-height: 2;
-  font-size: 16.3px;
-  text-align: center;
-  text-transform: uppercase;
-  width: 100%;
-  padding: 8px;
-  box-sizing: border-box;
-}
-#home--banner span {
-  font-family: PetalaPro;
-  font-size: 12px;
+#home--banner .small-text {
   line-height: 0.17;
-  text-align: right;
-  color: #3d383b;
-  width: 100%;
-  margin-top: 32px;
+}
+#home--banner .button {
+  text-transform: uppercase;
+}
+#home--clube-wine {
+  background-color: #fff;
 }
 #home--clube-wine h1 {
   padding: 16px;
   margin: 0;
+  color: #bf7111;
+}
+#home--clube-wine .club-wine__card__content {
+  padding: 8px 24px;
+  margin: 0;
+}
+#home--clube-wine .club-wine__card__title {
+  margin: 0 0 8px 0;
+}
+#home--clube-wine .club-wine__card__text {
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #333;
+  margin: 8px 0;
+}
+#home--clube-wine .club-wine__card__item {
+  border-radius: 10px;
+  box-shadow: 2.6px 3.1px 8px 0 rgba(0,0,0,0.098);
+}
+#home--clube-wine .club-wine__card__image img {
+  width: 100%;
+}
+#home--clube-wine .club-wine__card__title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  text-align: left;
+  color: #f7aa0f;
+}
+#home--clube-wine .club-wine__card__separator {
+  height: 1px;
+  background-color: #d0d0d0;
+}
+#home--benefits {
+  padding: 16px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("assets/bg-benef-cios@3x.jpg");
+}
+@media (max-width: 415px) {
+  #home--benefits {
+    background-image: url("assets/bg-benef-cios.jpg");
+  }
+}
+@media (max-width: 1024px) {
+  #home--benefits {
+    background-image: url("assets/bg-benef-cios@2x.jpg");
+  }
+}
+#home--benefits h1 {
+  padding: 0;
+  margin: 0;
+  color: #272727;
+}
+#home--benefits .benefit__card__content {
+  padding: 8px 24px;
+  margin: 0;
+}
+#home--benefits .benefit__card__title {
+  margin: 0 0 8px 0;
+}
+#home--benefits .benefit__card__text {
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #333;
+  margin: 8px 0;
+}
+#home--benefits .benefit__card__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home--benefits .benefit__card__title {
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 1.43;
+  color: #a74c03;
+  text-align: center;
 }
