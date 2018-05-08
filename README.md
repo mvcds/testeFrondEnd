@@ -13,4 +13,5 @@ As informações podem ser aleatórias
 - [ ] Versão mobile
 - [ ] Versao tablet
 - [ ] Versão do zeplin
+- [ ] Fix media queries
 - [ ] Informações carregadas através de um JSON
