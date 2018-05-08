@@ -1,10 +1,18 @@
+--base-size=8px
+--text-color=#333333
+--discrete-text-color=#3D383B
+--button-color=#FFFFFF
+--primary-color=#AC5908
+--mobile-size=415px
+--tablet-size=1024px
+
 body
   font-family OpenSans
   font-weight normal
   font-style normal
   font-stretch normal
   letter-spacing normal
-  color #333333
+  color --text-color
   padding 0
   margin 0
 
@@ -14,10 +22,10 @@ body
   align-items center
   background-image url("assets/bg-topo@3x.jpg")
 
-  @media (max-width 415px)
+  @media (max-width --mobile-size)
     background-image url("assets/bg-topo.jpg")
 
-  @media (max-width 1024px)
+  @media (max-width --tablet-size)
     background-image url("assets/bg-topo@2x.jpg")
 
 #logo
@@ -31,14 +39,14 @@ body
   font-size 12px
   line-height 0.17
   text-align right
-  color #3D383B
+  color --discrete-text-color
   width 100%
-  margin-top 32px
+  margin-top --base-size * 4
 
 .button
   border-radius 4px
-  background-color #AC5908
-  color #FFFFFF
+  background-color --primary-color
+  color --button-color
   font-family PetalaPro
   line-height 2
   font-size 16.3px
@@ -46,9 +54,9 @@ body
   text-transform uppercase
   text-decoration none
   width 100%
-  padding 8px
+  padding --base-size
   box-sizing border-box
 
 .reset
-  padding 16px
+  padding --base-size * 2
   margin 0
