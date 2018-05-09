@@ -10,7 +10,7 @@ As informações podem ser aleatórias
 
 ## Checklist
 
-- [ ] Versão mobile
+- [X] Versão mobile
 - [ ] No mobile (e tablet) o background de beneficios pode ser usado?
 - [ ] Aplicar carrosel nos beneficios do mobile? Talvez também no clube wine?
 - [ ] Arrumar tamanho de imagens no mobile
