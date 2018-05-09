@@ -1,0 +1,60 @@
+#home--highlight
+  reset(--base-size * 2)
+  display flex
+  flex-direction column
+  align-items center
+  background-image url("assets/imagem-fundo@3x.jpg")
+  color --button-color
+  text-align left
+
+  @media (max-width --mobile-size)
+    background-image url("assets/imagem-fundo.jpg")
+
+  @media (max-width --tablet-size)
+    background-image url("assets/imagem-fundo@2x.jpg")
+
+  h1
+    reset(0 0 (--base-size * 2) 0)
+    color --yellow-color
+
+  #highlight__main
+    display flex
+    flex-direction column
+    font-size 16px
+    line-height 1.38
+
+    div + div
+      margin-top --base-size * 2
+
+    #highlight__strong
+      font-size 18px
+      font-weight bold
+      line-height normal
+
+    #highlight__text
+      font-size 14px
+      line-height normal
+
+  #highlight__price
+    margin-top --base-size * 3
+    width 100%
+    display flex
+    flex-direction column
+
+    &-info
+      font-family Lato
+      display flex
+      align-items baseline
+      justify-content space-between
+      margin-bottom --base-size
+
+    &-text
+      font-size 18px
+
+    &-price
+      font-size 32px
+      color --yellow-color
+
+    &-number
+      font-size 46px
+      font-weight bold
