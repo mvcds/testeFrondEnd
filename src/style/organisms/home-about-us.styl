@@ -1,0 +1,26 @@
+#home--about-us
+  reset(0 0 (--base-size * 2) 0)
+  background-color --white-color
+  display flex
+  flex-direction column
+  align-items center
+
+  h1, h2
+    reset(--base-size * 2)
+    color --mine-shaft-color-2
+
+    & + p
+      margin-top (--base-size * -2)
+      color --mine-shaft-color
+      font-family OpenSans
+      font-size 18px
+      line-height 1.33
+      text-align center
+
+  div
+    reset(--base-size (--base-size * 2))
+    display flex
+    flex-direction column
+    align-items center
+    width 100%
+    box-sizing border-box
