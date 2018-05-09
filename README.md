@@ -12,6 +12,7 @@ As informações podem ser aleatórias
 
 - [ ] Versão mobile
 - [ ] No mobile (e tablet) o background de beneficios pode ser usado?
+- [ ] Aplicar carrosel nos beneficios do mobile? Talvez também no clube wine?
 - [ ] Arrumar tamanho de imagens no mobile
 - [ ] Versao tablet
 - [ ] Versão do zeplin
