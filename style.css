@@ -96,6 +96,14 @@ iframe {
     background-image: url("assets/bg-topo@2x.jpg");
   }
 }
+#home--banner div {
+  display: flex;
+  flex-direction: column;
+}
+#home--banner div span {
+  padding: 16px 0;
+  margin: 0;
+}
 #home--banner picture {
   text-align: center;
 }
