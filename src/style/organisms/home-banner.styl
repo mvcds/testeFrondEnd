@@ -1,28 +1,34 @@
 #home--banner
   reset(--base-size * 2)
   display flex
-  flex-direction column
   align-items center
   background-image url("assets/bg-topo@3x.jpg")
 
   @media (max-width --mobile-size)
+    flex-direction column
     background-image url("assets/bg-topo.jpg")
 
   @media (max-width --tablet-size)
     background-image url("assets/bg-topo@2x.jpg")
 
-  div
-    display flex
-    flex-direction: column;
-
-    span
-      reset((--base-size * 2) 0)
-
   picture
     text-align center
 
     img
-      width 50%
+      max-width 80%
+
+      @media (max-width --mobile-size)
+        width 50%
+
+  div.banner__item
+    display flex
+    flex-direction: column;
+
+    .banner__text
+      reset((--base-size * 2) 0)
+
+  .banner__item
+    flex 1
 
   .small-text
     line-height 0.17
