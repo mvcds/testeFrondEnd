@@ -75,8 +75,10 @@ iframe {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-.card-item + .card-item {
-  margin-top: 16px;
+@media (max-width: 479px) {
+  .card-item + .card-item {
+    margin-top: 16px;
+  }
 }
 #home--banner {
   padding: 16px;
@@ -127,10 +129,24 @@ iframe {
 #home--clube-wine {
   background-color: #fff;
 }
+@media (max-width: 479px) {
+  #home--clube-wine {
+    padding-bottom: 16px;
+  }
+}
 #home--clube-wine h1 {
   padding: 16px;
   margin: 0;
   color: #bf7111;
+}
+@media (min-width: 480px) {
+  #home--clube-wine .club-wine__card {
+    padding: 0 24px 24px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  }
 }
 #home--clube-wine .club-wine__card__content {
   padding: 8px 24px;
@@ -186,6 +202,15 @@ iframe {
   padding: 0;
   margin: 0;
   color: #272727;
+}
+@media (min-width: 480px) {
+  #home--benefits .benefit__card {
+    padding: 0 24px 24px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  }
 }
 #home--benefits .benefit__card__content {
   padding: 8px 24px;
