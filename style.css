@@ -86,7 +86,7 @@ iframe {
   align-items: center;
   background-image: url("assets/bg-topo@3x.jpg");
 }
-@media (max-width: 415px) {
+@media (max-width: 480px) {
   #home--banner {
     background-image: url("assets/bg-topo.jpg");
   }
@@ -164,7 +164,7 @@ iframe {
   align-items: center;
   background-image: url("assets/bg-benef-cios@3x.jpg");
 }
-@media (max-width: 415px) {
+@media (max-width: 480px) {
   #home--benefits {
     background-image: url("assets/bg-benef-cios.jpg");
   }
@@ -216,7 +216,7 @@ iframe {
   color: #fff;
   text-align: left;
 }
-@media (max-width: 415px) {
+@media (max-width: 480px) {
   #home--highlight {
     background-image: url("assets/imagem-fundo.jpg");
   }
