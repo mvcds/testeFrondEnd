@@ -18,12 +18,15 @@ As informações podem ser aleatórias
 - [X] Arrumar tamanho de imagens no mobile
 - [ ] Versao tablet
 - [X] Arrumar media queries
+- [ ] Arrumar setinha
 
 ## O que eu fiz
 
 Usei o chrome pra desenvolver, só espero que funcione nele, pois considerei o tempo curto (devido à ser no meio da semana)
 
 Para testes manuais no mobile, usei meu S8 para acessar https://mvcds.github.io/testeFrondEnd
+
+Como é uma land page que contém muitas coisas váriadas dentro de si, não me procupei muito em reutilizar os elementos visuais.
 
 ### Estilo
 
