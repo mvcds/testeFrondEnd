@@ -16,7 +16,7 @@ As informações podem ser aleatórias
 - [ ] No mobile (e tablet) o background de beneficios pode ser usado?
 - [ ] Aplicar carrosel nos beneficios do mobile? Talvez também no clube wine?
 - [X] Arrumar tamanho de imagens no mobile
-- [ ] Versao tablet
+- [X] Versao tablet
 - [X] Arrumar media queries
 - [ ] Arrumar setinha
 

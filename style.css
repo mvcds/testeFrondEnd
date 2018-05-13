@@ -55,6 +55,17 @@ iframe {
   border: 0;
   margin: 8px 0;
 }
+@media (min-width: 375px) {
+  iframe {
+    width: auto;
+  }
+}
+@media (min-width: 425px) {
+  iframe {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 .small-text {
   font-family: PetalaPro;
   font-size: 12px;
