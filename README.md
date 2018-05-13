@@ -11,13 +11,13 @@ As informações podem ser aleatórias
 ## Checklist
 
 - [X] Versão mobile
+- [ ] Versão do zeplin
+- [ ] Informações carregadas através de um JSON
 - [ ] No mobile (e tablet) o background de beneficios pode ser usado?
 - [ ] Aplicar carrosel nos beneficios do mobile? Talvez também no clube wine?
 - [ ] Arrumar tamanho de imagens no mobile
 - [ ] Versao tablet
-- [ ] Versão do zeplin
 - [ ] Arrumar media queries
-- [ ] Informações carregadas através de um JSON
 
 ## O que eu fiz
 
