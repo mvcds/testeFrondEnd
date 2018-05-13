@@ -1,12 +1,15 @@
 card-list()
-  @media (min-width --mobile-size)
+  @media (min-width --mobile-large-size)
     reset(0 (--base-size * 3) (--base-size * 3))
     display grid
     grid-template-columns 1fr 1fr
-    grid-gap --base-size * 2
+    grid-gap --base-size * 1
 
   &__content
     reset(--base-size (--base-size * 3))
+
+    @media (min-width --mobile-large-size)
+      reset(--base-size (--base-size * 2))
 
   &__title
     margin 0 0 (--base-size) 0
@@ -18,7 +21,10 @@ card-list()
     color --mine-shaft-color
     margin (--base-size) 0
 
-@media (max-width --mobile-size - 1)
+    @media (min-width --mobile-large-size)
+      text-align left
+
+@media (max-width --mobile-large-size - 1)
   .card-item
       & + &
         margin-top --base-size * 2

@@ -15,9 +15,9 @@ As informações podem ser aleatórias
 - [ ] Informações carregadas através de um JSON
 - [ ] No mobile (e tablet) o background de beneficios pode ser usado?
 - [ ] Aplicar carrosel nos beneficios do mobile? Talvez também no clube wine?
-- [ ] Arrumar tamanho de imagens no mobile
+- [X] Arrumar tamanho de imagens no mobile
 - [ ] Versao tablet
-- [ ] Arrumar media queries
+- [X] Arrumar media queries
 
 ## O que eu fiz
 

@@ -2,23 +2,25 @@
   reset(--base-size * 2)
   display flex
   align-items center
-  background-image url("assets/bg-topo@3x.jpg")
+  background-image url("assets/bg-topo.jpg")
+  flex-direction column
 
-  @media (max-width --mobile-size)
-    flex-direction column
-    background-image url("assets/bg-topo.jpg")
-
-  @media (max-width --tablet-size)
+  @media (min-width --tablet-size)
+    flex-direction row
     background-image url("assets/bg-topo@2x.jpg")
+
+  @media (min-width --laptop-size)
+    background-image url("assets/bg-topo@3x.jpg")
 
   picture
     text-align center
 
     img
-      max-width 80%
+      max-width: 50%;
 
-      @media (max-width --mobile-size)
-        width 50%
+      @media (min-width --tablet-size)
+        max-width 292px
+        max-height 309px
 
   div.banner__item
     display flex

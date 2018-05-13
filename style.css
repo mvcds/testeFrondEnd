@@ -75,7 +75,7 @@ iframe {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-@media (max-width: 479px) {
+@media (max-width: 424px) {
   .card-item + .card-item {
     margin-top: 16px;
   }
@@ -85,28 +85,30 @@ iframe {
   margin: 0;
   display: flex;
   align-items: center;
-  background-image: url("assets/bg-topo@3x.jpg");
+  background-image: url("assets/bg-topo.jpg");
+  flex-direction: column;
 }
-@media (max-width: 480px) {
+@media (min-width: 768px) {
   #home--banner {
-    flex-direction: column;
-    background-image: url("assets/bg-topo.jpg");
+    flex-direction: row;
+    background-image: url("assets/bg-topo@2x.jpg");
   }
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   #home--banner {
-    background-image: url("assets/bg-topo@2x.jpg");
+    background-image: url("assets/bg-topo@3x.jpg");
   }
 }
 #home--banner picture {
   text-align: center;
 }
 #home--banner picture img {
-  max-width: 80%;
+  max-width: 50%;
 }
-@media (max-width: 480px) {
+@media (min-width: 768px) {
   #home--banner picture img {
-    width: 50%;
+    max-width: 292px;
+    max-height: 309px;
   }
 }
 #home--banner div.banner__item {
@@ -129,7 +131,7 @@ iframe {
 #home--clube-wine {
   background-color: #fff;
 }
-@media (max-width: 479px) {
+@media (max-width: 424px) {
   #home--clube-wine {
     padding-bottom: 16px;
   }
@@ -139,18 +141,24 @@ iframe {
   margin: 0;
   color: #bf7111;
 }
-@media (min-width: 480px) {
+@media (min-width: 425px) {
   #home--clube-wine .club-wine__card {
     padding: 0 24px 24px;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
+    grid-gap: 8px;
   }
 }
 #home--clube-wine .club-wine__card__content {
   padding: 8px 24px;
   margin: 0;
+}
+@media (min-width: 425px) {
+  #home--clube-wine .club-wine__card__content {
+    padding: 8px 16px;
+    margin: 0;
+  }
 }
 #home--clube-wine .club-wine__card__title {
   margin: 0 0 8px 0;
@@ -161,6 +169,11 @@ iframe {
   text-align: justify;
   color: #333;
   margin: 8px 0;
+}
+@media (min-width: 425px) {
+  #home--clube-wine .club-wine__card__text {
+    text-align: left;
+  }
 }
 #home--clube-wine .club-wine__card__item {
   border-radius: 10px;
@@ -186,16 +199,16 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("assets/bg-benef-cios@3x.jpg");
+  background-image: url("assets/bg-benef-cios.jpg");
 }
-@media (max-width: 480px) {
-  #home--benefits {
-    background-image: url("assets/bg-benef-cios.jpg");
-  }
-}
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   #home--benefits {
     background-image: url("assets/bg-benef-cios@2x.jpg");
+  }
+}
+@media (min-width: 1024px) {
+  #home--benefits {
+    background-image: url("assets/bg-benef-cios@3x.jpg");
   }
 }
 #home--benefits h1 {
@@ -203,18 +216,24 @@ iframe {
   margin: 0;
   color: #272727;
 }
-@media (min-width: 480px) {
+@media (min-width: 425px) {
   #home--benefits .benefit__card {
     padding: 0 24px 24px;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
+    grid-gap: 8px;
   }
 }
 #home--benefits .benefit__card__content {
   padding: 8px 24px;
   margin: 0;
+}
+@media (min-width: 425px) {
+  #home--benefits .benefit__card__content {
+    padding: 8px 16px;
+    margin: 0;
+  }
 }
 #home--benefits .benefit__card__title {
   margin: 0 0 8px 0;
@@ -225,6 +244,11 @@ iframe {
   text-align: justify;
   color: #333;
   margin: 8px 0;
+}
+@media (min-width: 425px) {
+  #home--benefits .benefit__card__text {
+    text-align: left;
+  }
 }
 #home--benefits .benefit__card__item {
   display: flex;
@@ -245,18 +269,18 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("assets/imagem-fundo@3x.jpg");
+  background-image: url("assets/imagem-fundo.jpg");
   color: #fff;
   text-align: left;
 }
-@media (max-width: 480px) {
-  #home--highlight {
-    background-image: url("assets/imagem-fundo.jpg");
-  }
-}
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   #home--highlight {
     background-image: url("assets/imagem-fundo@2x.jpg");
+  }
+}
+@media (min-width: 1024px) {
+  #home--highlight {
+    background-image: url("assets/imagem-fundo@3x.jpg");
   }
 }
 #home--highlight h1 {
